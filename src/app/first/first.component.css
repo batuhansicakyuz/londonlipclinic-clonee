@@ -185,7 +185,7 @@ float: left;
 }
 
 .bodytext3{
-background-color:green;
+background-color:black;
 box-sizing: content-box;
      width: 300%;
 float: left;
@@ -322,4 +322,12 @@ div.slide-left {
   padding: 200px;
   height: 150px;
   float: left;
+}
+
+.naturalborder{
+border-style: solid;
+border-collapse: separate;
+padding: 30px;
+  width: 900px;
+  height: 450px;
 }

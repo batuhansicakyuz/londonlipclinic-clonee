@@ -349,7 +349,7 @@ position: relative;
 }
 
 .example-container {
-  width: 350px;
+  width: 345px;
   height: 500px;
    position: fixed;
   top: 100px;
@@ -361,9 +361,15 @@ position: relative;
   height: 100%;
   align-items: center;
   justify-content: center;
+  background-color: #E1D9D1 ;
+  color:white;
 }
 
 .example-sidenav {
   padding: 20px;
 }
 
+.allcolour{
+background-color:#E6BB8E;
+color:black;
+}

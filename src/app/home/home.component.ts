@@ -16,4 +16,8 @@ mapOptions: google.maps.MapOptions = {
        fullscreenControl: false
   };
 
+panelOpenState = false;
+
+showFiller = false;
+
 }

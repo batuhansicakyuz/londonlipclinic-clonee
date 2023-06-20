@@ -1,3 +1,6 @@
+<br>
+<br>
+<br>
 <div class="centerbody">
   <h2>LIP FILLERS LONDON.</h2>
   <img src="assets/icons/lipandface.png"  >
@@ -48,7 +51,71 @@
   <p class="centerright">
     The procedure is non-invasive and when performed by a qualified medical professional, there is little risk.
   </p>
+  <br>
+  <h3 class="centertext">FREQUENTLY ASKED QUESTIONS</h3>
+  <div class="centerright">
+  <mat-accordion>
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          HOW MUCH DO LIP INJECTIONS COST?
+        </mat-panel-title>
+
+      </mat-expansion-panel-header>
+      <p>Although fillers are commonly considered a quick and safe procedure you need to be aware of all the risks associated with the procedure. One of the risks includes vascular occlusion (aka blood vessel blockage, which is rare but can lead to tissue death).To avoid this and a botched job, only see a MEDICAL professional like Rupesh, who is highly experienced in this specific procedure. Always ask to see before and after pictures of what the practitioner has done.</p>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          HOW MUCH DO LIP INJECTIONS COST?
+        </mat-panel-title>
+<!--        <mat-panel-description>-->
+<!--          Currently I am {{panelOpenState ? 'open' : 'closed'}}-->
+<!--        </mat-panel-description>-->
+      </mat-expansion-panel-header>
+      <p>
+        We generally find that the cheaper brands of lip fillers give horrible “ducky pouts” and cause complications such as infections, lumps etc. You can NOT compare Four Seasons Hotel to the local 2* Hotel. Both are Hotels but everything from the total experience & service to the quality of food and toiletries you receive is different!
+      </p>
+
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          ARE LIP FILLERS DANGEROUS?
+        </mat-panel-title>
+        <!--        <mat-panel-description>-->
+        <!--          Currently I am {{panelOpenState ? 'open' : 'closed'}}-->
+        <!--        </mat-panel-description>-->
+      </mat-expansion-panel-header>
+      <p>
+        Although fillers are commonly considered a quick and safe procedure you need to be aware of all the risks associated with the procedure. One of the risks includes vascular occlusion (aka blood vessel blockage, which is rare but can lead to tissue death).To avoid this and a botched job, only see a MEDICAL professional like Rupesh, who is highly experienced in this specific procedure. Always ask to see before and after pictures of what the practitioner has done.
+      </p>
+
+    </mat-expansion-panel>
+  </mat-accordion>
+  </div>
 </div>
+
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <p>ABOUT LIP FILLERS LONDON TREATMENT</p>
+    <p>WHAT IS LIP FILLER?</p>
+    <p>LIP FILLER RISKS AND SIDE EFFECTS</p>
+    <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
+    <button (click)="showFiller = !showFiller" mat-raised-button>
+      Toggle extra text
+    </button>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      PAGE CONTENT
+    </button>
+  </div>
+
+</mat-drawer-container>
 
 <!--//-->
 <!--<div class="body1">-->

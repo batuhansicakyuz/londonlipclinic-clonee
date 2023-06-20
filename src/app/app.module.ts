@@ -20,6 +20,12 @@ import { AppRoutingModule } from './app-routing.module';
 
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 
+import {MatExpansionModule} from '@angular/material/expansion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {MatSidenavModule} from '@angular/material/sidenav';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +36,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     HomeComponent,
     FifthSection,
     HeaderSection,
-    FirstComponent
+    FirstComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,6 +45,10 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     GoogleMapsModule,
     AppRoutingModule,
     MatProgressBarModule,
+    MatExpansionModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule,
+    MatSidenavModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

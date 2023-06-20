@@ -5,10 +5,11 @@ import { UeberunsComponent } from './ueberuns/ueberuns.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-{path:'',component:HomeComponent},
+{path:'',component:FirstComponent},
+{ path: 'first-component', component: FirstComponent },
   {path:'home-component',component:HomeComponent},
-  { path: 'first-component', component: FirstComponent },
   { path: 'ueberuns-component', component: UeberunsComponent },
+  { path: '', component: UeberunsComponent },
 //   { path:'home', component: HomeComponent},
 ];
 

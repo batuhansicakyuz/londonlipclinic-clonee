@@ -8,8 +8,8 @@ import { FifthSection } from './fifthsection/fifthsection.component';
 
 const routes: Routes = [
 {path:'',component:StartComponent },
+{ path: 'start-component', component: StartComponent },
   {path:'home-component',component:HomeComponent},
-  { path: 'start-component', component: StartComponent },
   { path: 'referenzen-component', component: ReferenzenComponent },
   { path: 'secondsection-component', component: SecondSection },
   { path: 'fithsection-component', component: FifthSection },

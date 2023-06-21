@@ -186,12 +186,12 @@ float: left;
 }
 
 .bodytext3{
-background-color:green;
+background-color: #FDF4E3;
 box-sizing: content-box;
      width: 300%;
 float: left;
   padding: 15px;
-  color:white;
+  color:black;
 }
 
 .rightprogress{
@@ -243,7 +243,7 @@ float: left;
 }
 .button5 {background-color: #555555;} /* Black */
 .button {
-  background-color: #FFED01; /* #23303B background color */
+  background-color: #E6BB8E; /* #23303B background color */
   border: none;
   color: black;
   padding: 15px 32px;
@@ -386,4 +386,9 @@ color:black;
 
 .birhtml {
   scroll-behavior: smooth;
+}
+
+.centerbody{
+  text-align: center;
+
 }

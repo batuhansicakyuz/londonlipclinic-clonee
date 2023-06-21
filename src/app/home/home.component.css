@@ -352,10 +352,18 @@ position: relative;
 
 .example-container {
   width: 345px;
-  height: 500px;
+  height: 900px;
    position: fixed;
-  top: 160px;
+  top: 110px;
   left: 0px;
+}
+.example-container1 {
+  width: 345px;
+  height: 900px;
+  position: fixed;
+  top: 70px;
+  right: 0px;
+  background-color:#E6BB8E;
 }
 
 .example-sidenav-content {

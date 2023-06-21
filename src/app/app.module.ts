@@ -14,7 +14,7 @@ import { FifthSection } from './fifthsection/fifthsection.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 
 import { HeaderSection } from './headersection/headersection.component';
-import { FirstComponent } from './first/first.component';
+import { StartComponent } from './start/start.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -36,7 +36,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     HomeComponent,
     FifthSection,
     HeaderSection,
-    FirstComponent,
+    StartComponent,
   ],
   imports: [
     BrowserModule,

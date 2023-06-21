@@ -324,7 +324,9 @@ div.slide-left {
 }
 
 .centertext {
-  position: relative;
+  float: center;
+      margin-left: 240px;
+      margin-top: 96px;
   left: 250px;
   text-align: left;
   width: 800px;
@@ -335,7 +337,7 @@ text-align: left
 }
 
 .centerright{
-position: relative;
+  margin-left: 380px;
   left: 400px;
   text-align: left;
   width: 600px;
@@ -352,7 +354,7 @@ position: relative;
   width: 345px;
   height: 500px;
    position: fixed;
-  top: 100px;
+  top: 160px;
   left: 0px;
 }
 
@@ -360,8 +362,8 @@ position: relative;
   display: flex;
   height: 100%;
   align-items: center;
-  justify-content: center;
-  background-color: #E1D9D1 ;
+  justify-content: left;
+  background-color: #E6BB8E ;
   color:white;
 }
 
@@ -372,4 +374,8 @@ position: relative;
 .allcolour{
 background-color:#E6BB8E;
 color:black;
+}
+
+.birhtml {
+  scroll-behavior: smooth;
 }

@@ -6,7 +6,6 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
 mapOptions: google.maps.MapOptions = {
     center: { lat: 52.52346922653795, lng: 13.413399073765264 },
     zoom: 12,

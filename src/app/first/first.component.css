@@ -185,7 +185,7 @@ float: left;
 }
 
 .bodytext3{
-background-color:black;
+background-color:#E6BB8E;
 box-sizing: content-box;
      width: 300%;
 float: left;
@@ -242,9 +242,9 @@ float: left;
 }
 .button5 {background-color: #555555;} /* Black */
 .button {
-  background-color: #FFED01; /* #23303B background color */
+  background-color: gray; /* #23303B background color */
   border: none;
-  color: black;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -334,4 +334,8 @@ padding: 30px;
 
 backgroundcolor{
 backgroundcolor:#E6BB8E;
+}
+
+.colour1{
+color:#E6BB8E;
 }

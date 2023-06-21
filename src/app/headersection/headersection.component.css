@@ -90,3 +90,12 @@ text-align:right;
    position: fixed;
    background-color:black;
 }
+.topnav {
+   background-color: white;
+     display: flex;  /* Make Flex container */
+  position: fixed;
+     color:black;
+}
+.topnav-centered{
+left:1350px;
+}

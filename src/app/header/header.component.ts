@@ -15,11 +15,4 @@ export class HeaderComponent implements OnInit {
   }
   title = 'ng_clone_online_reader';
 
-  toHome(){
-    document.getElementById("home")?.scrollIntoView({behavior:"smooth"});
-  }
-  toThird(){
-    document.getElementById("thirdbehavior")?.scrollIntoView({behavior:"smooth"});
-  }
-
 }

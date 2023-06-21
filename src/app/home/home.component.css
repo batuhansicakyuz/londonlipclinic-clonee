@@ -345,25 +345,25 @@ text-align: left
 
 .expansionright{
 position: relative;
-  left: 400px;
+  left: 100px;
   text-align: left;
-  width: 200px;
+  width: 100px;
 }
 
 .example-container {
-  width: 345px;
+  width: 195px;
   height: 900px;
    position: fixed;
-  top: 110px;
+  top: 0px;
   left: 0px;
 }
 .example-container1 {
-  width: 345px;
+  width: 180px;
   height: 900px;
   position: fixed;
-  top: 73px;
+  top: 0px;
   right: 0px;
-  background-color:#E6BB8E;
+  background-color:white;
 }
 
 .example-sidenav-content {
@@ -371,12 +371,12 @@ position: relative;
   height: 100%;
   align-items: center;
   justify-content: left;
-  background-color: #E6BB8E ;
+  background-color: white ;
   color:white;
 }
 
 .example-sidenav {
-  padding: 20px;
+  padding: 30px;
 }
 
 .allcolour{

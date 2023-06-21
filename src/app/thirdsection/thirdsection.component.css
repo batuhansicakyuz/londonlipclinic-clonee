@@ -112,3 +112,8 @@ body {
     transform: none;
   }
 }
+.leftlink{
+position:relative;
+  background-color: #E6BB8E;
+  left: 12.35%;
+}

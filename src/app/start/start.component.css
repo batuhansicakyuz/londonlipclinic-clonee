@@ -191,6 +191,12 @@ box-sizing: content-box;
 float: left;
   padding: 15px;
   color:white;
+  transition: background-color 2s ease-out 100ms
+}
+
+
+div.bodytext3:hover {
+  background-color: #FF1493;
 }
 
 .rightprogress{
@@ -339,3 +345,84 @@ backgroundcolor:#E6BB8E;
 .colour1{
 color:#E6BB8E;
 }
+ div.slide-left {
+    width:100%;
+    overflow:hidden;
+  }
+  div.slide-left p {
+    animation: slide-left 3s;
+  }
+
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+div.slide-right {
+    width:100%;
+    overflow:hidden;
+  }
+  div.slide-right p {
+    animation: slide-right 3s;
+  }
+
+  @keyframes slide-right {
+    from {
+      margin-right: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+
+div.slide-left1 {
+    width:100%;
+    overflow:hidden;
+  }
+  div.slide-left1 p {
+    animation: slide-left 7s;
+  }
+
+  @keyframes slide-left1 {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+div.slide-left2 {
+    width:100%;
+    overflow:hidden;
+  }
+  div.slide-left2 p {
+    animation: slide-left 9s;
+  }
+
+  @keyframes slide-left2 {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+

@@ -491,7 +491,7 @@ div.slide-left2 {
 
 .container2 {
   position: relative;
-  width: 50%;
+  width: 70%;
 }
 
 .image2 {
@@ -507,7 +507,7 @@ div.slide-left2 {
   left: 0;
   right: 0;
   height: 100%;
-  width: 170%;
+  width: 143%;
   opacity: 0;
   transition: .5s ease;
   background-color: #E6BB8E;
@@ -544,4 +544,20 @@ div.slide-left2 {
   content: "";
   clear: both;
   display: table;
+  left: 120px;
 }
+
+.centerprogress {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    color: #E6BB8E;
+    left: 20px;
+  }
+  .alignleft6{
+  padding-right: 200px;
+  }
+  .alignleft7{
+    padding-right: 100px;
+    }

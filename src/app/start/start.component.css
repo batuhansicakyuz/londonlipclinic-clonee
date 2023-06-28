@@ -572,4 +572,19 @@ div.slide-left2 {
 .alignleft8{
   background-color: #E6BB8E;
   border-style: groove;
-  padding:150px;  }
+  padding:120px;  }
+
+.textcontainer{
+text-align: center;
+}
+
+.row1 {
+  left: 40px;
+  padding-right: 40px;
+}
+
+.column1 {
+  width: 30%;
+  padding: 30px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}

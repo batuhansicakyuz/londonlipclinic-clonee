@@ -561,3 +561,15 @@ div.slide-left2 {
   .alignleft7{
     padding-right: 100px;
     }
+
+.body11{
+  padding: 150px;
+  float: left;
+  padding-left: 100px;
+  backgroundcolor: gray;
+}
+
+.alignleft8{
+  background-color: #E6BB8E;
+  border-style: groove;
+  padding:150px;  }

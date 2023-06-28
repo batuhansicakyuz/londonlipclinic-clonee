@@ -26,6 +26,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatSidenavModule} from '@angular/material/sidenav';
 
+import { NgxImageZoomModule } from 'ngx-image-zoom';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,6 +51,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatSidenavModule,
+    NgxImageZoomModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

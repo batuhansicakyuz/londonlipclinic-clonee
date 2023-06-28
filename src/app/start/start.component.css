@@ -267,7 +267,7 @@ float: left;
 }
 
 .hover-1 {
-  background: linear-gradient(yellow 0 0) left / var(--p,0) no-repeat;
+  background: linear-gradient(#E6BB8E 0 0) left / var(--p,0) no-repeat;
   transition: .4s,background-position 0s;
 }
 .hover-1:hover {
@@ -336,6 +336,7 @@ border-collapse: separate;
 padding: 30px;
   width: 900px;
   height: 450px;
+  color:#E6BB8E;
 }
 
 backgroundcolor{
@@ -344,6 +345,9 @@ backgroundcolor:#E6BB8E;
 
 .colour1{
 color:#E6BB8E;
+}
+.colour2{
+color:black;
 }
  div.slide-left {
     width:100%;
@@ -426,3 +430,118 @@ div.slide-left2 {
     }
   }
 
+.body7{
+  padding: 350px;
+  height: 360px;
+  float: left;
+  padding-left: 20px;
+}
+
+.body8{
+  padding: 250px;
+  float: left;
+  padding-left: 100px;
+}
+
+.zoom {
+  padding: 5px;
+  transition: transform .10s; /* Animation */
+  width: 2px;
+  height: 4px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.10); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.alignright4 {
+
+          right: 150px;
+}
+
+.alignleft5 {
+     right: 300px;
+}
+
+.body9{
+  padding: 250px;
+  float: left;
+  padding-left: 300px;
+}
+
+.body10{
+    padding: 100px;
+    float: left;
+}
+
+.alignleft {
+	float: left;
+    width: 60%;
+    padding: 50px;
+    height: 100px;
+}
+.alignright7 {
+	float: right;
+	width: 30%;
+      padding: 50px;
+          align-items: center;
+          padding-left: 80px;
+}
+
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 170%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #E6BB8E;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.text4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

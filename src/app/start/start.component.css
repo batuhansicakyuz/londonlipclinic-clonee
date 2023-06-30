@@ -557,6 +557,7 @@ div.slide-left2 {
   }
   .alignleft6{
   padding-right: 200px;
+
   }
   .alignleft7{
     padding-right: 100px;
@@ -587,4 +588,13 @@ text-align: center;
   width: 30%;
   padding: 30px;
   height: 200px; /* Should be removed. Only for demonstration */
+}
+
+.naturalborder1{
+border-style: solid;
+border-collapse: separate;
+padding: 30px;
+  background-color: #E6BB8E;
+  color: white;
+  text-align: left;
 }

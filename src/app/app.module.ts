@@ -9,7 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { SecondSection } from './secondsection/secondsection.component';
 import { ThirdSection } from './thirdsection/thirdsection.component';
 import { UberunsComponent } from './uberuns/uberuns.component';
-import { FifthSection } from './fifthsection/fifthsection.component';
+import { LeistungenSection } from './leistungen/leistungen.component';
 
 import { GoogleMapsModule } from '@angular/google-maps';
 
@@ -36,7 +36,7 @@ import { NgxImageZoomModule } from 'ngx-image-zoom';
     SecondSection,
     ThirdSection,
     UberunsComponent,
-    FifthSection,
+    LeistungenSection,
     HeaderSection,
     StartComponent,
   ],

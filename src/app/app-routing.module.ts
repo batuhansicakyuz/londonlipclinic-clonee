@@ -4,7 +4,7 @@ import { StartComponent } from './start/start.component';
 import { ReferenzenComponent } from './referenzen/referenzen.component';
 import { UberunsComponent } from './uberuns/uberuns.component';
 import { SecondSection } from './secondsection/secondsection.component';
-import { FifthSection } from './fifthsection/fifthsection.component';
+import { LeistungenSection } from './leistungen/leistungen.component';
 
 const routes: Routes = [
 {path:'',component:StartComponent },
@@ -12,7 +12,7 @@ const routes: Routes = [
   {path:'uberuns-component',component:UberunsComponent},
   { path: 'referenzen-component', component: ReferenzenComponent },
   { path: 'secondsection-component', component: SecondSection },
-  { path: 'fithsection-component', component: FifthSection },
+  { path: 'leistungen-component', component: LeistungenSection },
 //   { path:'home', component: HomeComponent},
 ];
 

@@ -1,60 +1,31 @@
-.center {
-    margin: auto;
-    width: 70%;
-    padding: 20px;
-    display: flex;
-    background-color: white;
-    color: black;
-  }
-
-.my-google-map{
-  .map-container{
-    width: 1000px;
-    height: 350px;
-  }
-}
-
-.container{
-background-color:white;
-padding: 50px;
-height: 100px;
-float: left;
-  padding: 15px;
-}
-
 .body2{
-background-color:white;
-padding: 50px;
-height: 100px;
-float: left;
+  background-color:white;
+  padding: 50px;
+  height: 100px;
+  float: left;
   padding: 15px;
 }
+
 .bodytext{
-     box-sizing: content-box;
-     width: 100%;
-     padding: 5px;
-float: left;
+  box-sizing: content-box;
+  max-width: 100%;
+  padding: 5px;
+  float: left;
   padding: 15px;
 }
-.br {
-    display: block;
-    margin: 100px 0;
- }
+
 .alignleft {
 	float: left;
-    width: 60%;
-    padding: 50px;
-    height: 200px;
+  width: 60%;
+  padding: 50px;
+  height: 200px;
 }
 
 .alignright {
 	float: right;
-	width: 50%;
-      padding: 60px;
+	max-width: 50%;
 }
-.mat-raised-button {
- background-color:black;
- }
+
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -67,16 +38,5 @@ float: left;
   margin: 4px 2px;
   cursor: pointer;
 }
+
 .button5 {background-color: #555555;} /* Black */
-
-.zoom {
-  padding: 5px;
-  transition: transform .10s; /* Animation */
-  width: 2px;
-  height: 4px;
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}

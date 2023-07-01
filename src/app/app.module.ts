@@ -8,7 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { MatButtonModule } from '@angular/material/button';
 import { SecondSection } from './secondsection/secondsection.component';
 import { ThirdSection } from './thirdsection/thirdsection.component';
-import { HomeComponent } from './home/home.component';
+import { UberunsComponent } from './uberuns/uberuns.component';
 import { FifthSection } from './fifthsection/fifthsection.component';
 
 import { GoogleMapsModule } from '@angular/google-maps';
@@ -35,7 +35,7 @@ import { NgxImageZoomModule } from 'ngx-image-zoom';
     FirstSection,
     SecondSection,
     ThirdSection,
-    HomeComponent,
+    UberunsComponent,
     FifthSection,
     HeaderSection,
     StartComponent,

@@ -6,7 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FirstSection } from './firstsection/firstsection.component';
 import { HeaderComponent } from './header/header.component';
 import { MatButtonModule } from '@angular/material/button';
-import { SecondSection } from './secondsection/secondsection.component';
+import { ContactSection } from './contact/contact.component';
 import { ThirdSection } from './thirdsection/thirdsection.component';
 import { UberunsComponent } from './uberuns/uberuns.component';
 import { LeistungenSection } from './leistungen/leistungen.component';
@@ -33,7 +33,7 @@ import { NgxImageZoomModule } from 'ngx-image-zoom';
     AppComponent,
     HeaderComponent,
     FirstSection,
-    SecondSection,
+    ContactSection,
     ThirdSection,
     UberunsComponent,
     LeistungenSection,

@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { StartComponent } from './start/start.component';
 import { ReferenzenComponent } from './referenzen/referenzen.component';
 import { UberunsComponent } from './uberuns/uberuns.component';
-import { SecondSection } from './secondsection/secondsection.component';
+import { ContactSection } from './contact/contact.component';
 import { LeistungenSection } from './leistungen/leistungen.component';
 
 const routes: Routes = [
@@ -11,7 +11,7 @@ const routes: Routes = [
 { path: 'start-component', component: StartComponent },
   {path:'uberuns-component',component:UberunsComponent},
   { path: 'referenzen-component', component: ReferenzenComponent },
-  { path: 'secondsection-component', component: SecondSection },
+  { path: 'contact-component', component: ContactSection },
   { path: 'leistungen-component', component: LeistungenSection },
 //   { path:'home', component: HomeComponent},
 ];

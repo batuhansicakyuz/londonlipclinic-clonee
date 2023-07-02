@@ -128,33 +128,30 @@ background-color: #red;
 .img{
 background-repeat: no-repeat;}
 
-.body2{
+/*.body2{
 background-color:white;
 padding: 50px;
 height: 100px;
 float: left;
   padding: 15px;
-}
-.bodytext{
+}*/
+/*.bodytext{
      box-sizing: content-box;
      width: 100%;
 float: left;
   padding: 15px;
-}
+}*/
 .br {
     display: block;
     margin: 100px 0;
  }
 .alignleft {
 	float: left;
-    width: 60%;
-    padding: 50px;
-    height: 200px;
+  max-width: 100%;
 }
 .alignright {
 	float: right;
 	width: 30%;
-      padding: 50px;
 }
 .alignright2 {
 	float: right;
@@ -299,26 +296,6 @@ div.slide-right {
 
     to {
       margin-right: 0%;
-      width: 100%;
-    }
-  }
-
-div.slide-left {
-    width:100%;
-    overflow:hidden;
-  }
-  div.slide-left p {
-    animation: slide-left 10s;
-  }
-
-  @keyframes slide-left {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-
-    to {
-      margin-left: 0%;
       width: 100%;
     }
   }

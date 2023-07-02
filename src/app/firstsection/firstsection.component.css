@@ -12,7 +12,7 @@
     max-width: 600px;
   }
 
-  
+
   section {
     display: table;
   }
@@ -59,13 +59,13 @@
   div.slide-left p {
     animation: slide-left 10s;
   }
-  
+
   @keyframes slide-left {
     from {
       margin-left: 100%;
-      width: 300%; 
+      width: 300%;
     }
-  
+
     to {
       margin-left: 0%;
       width: 100%;
@@ -79,13 +79,13 @@
   div.slide-right p {
     animation: slide-left 10s;
   }
-  
+
   @keyframes slide-right {
     from {
       margin-right: 100%;
-      width: 300%; 
+      width: 300%;
     }
-  
+
     to {
       margin-right: 0%;
       width: 100%;
@@ -95,3 +95,17 @@
   .main{
     background-color: #152C42;
   }
+
+.navbar{
+position: fixed;
+/*right   : 190px;*/
+background-color:#E6BB8E;
+width: 100%;
+}
+
+.right{
+float: right;
+}
+.menu-spacer {
+  flex: 1 1 auto;
+}

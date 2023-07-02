@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./firstsection.component.css']
 })
 export class FirstSection {
+navbarOpen = false;
 
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
+  }
+
+  title = 'app';
 }

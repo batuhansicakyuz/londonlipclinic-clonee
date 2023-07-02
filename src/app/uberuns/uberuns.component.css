@@ -351,14 +351,14 @@ position: relative;
 }
 
 .example-container {
-  width: 195px;
+  /*width: 195px;*/
   height: 900px;
    position: fixed;
-  top: 0px;
+  top: 60px;
   left: 0px;
 }
 .example-container1 {
-  width: 180px;
+  /*width: 180px;*/
   height: 900px;
   position: fixed;
   top: 0px;

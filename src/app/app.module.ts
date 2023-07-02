@@ -28,6 +28,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 
 import { NgxImageZoomModule } from 'ngx-image-zoom';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -52,6 +54,7 @@ import { NgxImageZoomModule } from 'ngx-image-zoom';
     MatSlideToggleModule,
     MatSidenavModule,
     NgxImageZoomModule,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -366,11 +366,8 @@ div.slide-right {
 }
 
 .naturalborder{
-border-style: solid;
-border-collapse: separate;
-padding: 30px;
-  width: 900px;
-  height: 450px;
+  border-style: solid;
+  border-collapse: separate;
   color:#E6BB8E;
 }
 

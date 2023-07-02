@@ -175,10 +175,8 @@ float: left;
 }
 
 .bodytext2{
-box-sizing: content-box;
-     width: 300%;
+     max-width: 720ch;
 float: left;
-  padding: 15px;
 }
 
 .bodytext3{
@@ -574,4 +572,23 @@ padding: 30px;
   background-color: #E6BB8E;
   color: white;
   text-align: left;
+}
+
+/* container */
+.responsive-two-columns {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* columns */
+.responsive-two-columns > * {
+    width:100%;
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-two-columns > * {
+        width:50%;
+    }
 }

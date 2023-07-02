@@ -592,3 +592,9 @@ padding: 30px;
         width:50%;
     }
 }
+
+.full-height-centered {
+    /*min-height:100vh;*/
+    text-align:center;
+    /*background:#f97171;*/
+}

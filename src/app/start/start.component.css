@@ -182,7 +182,7 @@ float: left;
 .bodytext3{
 background-color:#E6BB8E;
 box-sizing: content-box;
-     width: 300%;
+
 float: left;
   padding: 15px;
   color:white;
@@ -281,6 +281,20 @@ img.ri:empty
   img.ri { max-height: 90%; }
 }
 
+.responsive {
+  display:block;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+.center-div
+{
+  margin: 0 auto;
+  max-width: 700px;
+  /*height: 100px;*/
+}
 .alignleft4 {
 
     width: 50%;

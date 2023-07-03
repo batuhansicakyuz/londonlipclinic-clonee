@@ -231,7 +231,7 @@ float: left;
 
 /*.my-google-map{
   .map-container{
-    width: 600px;
+    max-width: 900px;
     height: 250px;
   }
 }*/
@@ -721,4 +721,11 @@ background: dodgerblue;
     .responsive-three-columns > * {
         width:50%;
     }
+}
+
+.naturalborder3{
+  border-style: solid;
+  border-collapse: separate;
+  color:#E6BB8E;
+  backgroundcolor:#FDF4E3;
 }

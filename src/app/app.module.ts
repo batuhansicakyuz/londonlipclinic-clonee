@@ -29,6 +29,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { NgxImageZoomModule } from 'ngx-image-zoom';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -55,6 +58,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatSidenavModule,
     NgxImageZoomModule,
     FlexLayoutModule,
+    NgbCarouselModule,
+    IvyCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

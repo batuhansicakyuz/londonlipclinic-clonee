@@ -34,7 +34,7 @@ showFiller = false;
       clearInterval(this.projectcountstop);
     }
 
-  },10) //10 is milisecond you can control it
+  },50) //10 is milisecond you can control it
 
 
   accuratecountstop:any = setInterval(()=>{
@@ -44,7 +44,7 @@ showFiller = false;
 
       clearInterval(this.accuratecountstop);
     }
-  },10)
+  },50)
 
 
   clientcountstop:any = setInterval(()=>{
@@ -54,7 +54,7 @@ showFiller = false;
 
       clearInterval(this.clientcountstop);
     }
-  },10)
+  },50)
 
   customerfeedbackstop:any = setInterval(()=>{
     this.customerfeedback++;
@@ -63,6 +63,6 @@ showFiller = false;
 
       clearInterval(this.customerfeedbackstop);
     }
-  },10)
+  },70)
 
 }

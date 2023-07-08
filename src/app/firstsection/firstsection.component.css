@@ -101,6 +101,7 @@ position: fixed;
 /*right   : 190px;*/
 background-color:#E6BB8E;
 width: 100%;
+z-index: 999;
 }
 
 .right{

@@ -102,6 +102,7 @@ position: fixed;
 background-color:#E6BB8E;
 width: 100%;
 z-index: 999;
+color: white;
 }
 
 .right{
@@ -109,4 +110,18 @@ float: right;
 }
 .menu-spacer {
   flex: 1 1 auto;
+}
+
+.button5 {background-color: ;} /* Black */
+.button {
+  background-color: #FDF4E3; /* #23303B background color */
+  border: none;
+  color: black;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

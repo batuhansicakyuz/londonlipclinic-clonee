@@ -1,13 +1,44 @@
-<br>
-<br>
-<br>
-<div class="alignleft">
-      <img src="assets/images/ruj.png" style="max-width:100%;height:auto;">
-    </div>
-    <div class="alignright">
-      <h4>BABAS DIENSTLEISTUNGEN</h4>
-      <h2>Entrümpelungen Berlin und Brandenburg</h2>
-      <p>Wir von der BABAS Dienstleistungen Berlin arbeiten nicht nur zügig, sondern sind auch sehr flexibel. Bereits nach unserem ersten Telefonat, vereinbaren wir einen Termin für Entrümpelung in Berlin mit Ihnen. Dabei spielt die Größe des Haushalts keine Rolle, denn unser Team von BABAS Dienstleistungen Berlin ist sehr erfahren und kann sich jeder Größe anpassen. Zudem kümmern wir uns nicht nur um die Haushaltsauflösung und um die Entsorgung, sondern auch darum, dass Sie die Schlüssel erst erhalten, wenn die Wohnung besenrein ist. Sie sind interessiert an einer professionellen Entrümpelung in Berlin? Gerne informieren wir Sie bei einem Telefonat über unsere Angebote.</p>
-      <button class="button button5">MEHR ERFAHREN</button>
-    </div>
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Animate On Scroll | AOS</title>
+<!--  <link rel="stylesheet" href="aos-by-red.css">-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<div class="container">
+  <!------------------------------------------------------------>
+  <div class="div">
+    I am div 1
+  </div>
+  <!--------------------------------------------------------------->
+  <div class="div" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+    I am div 2
+  </div>
+  <!-------------------------------------------------------------->
+  <div class="div" data-aos="fade-right">
+    I am div 3
+  </div>
+  <!-- ------------------------------------------------------------->
+  <div class="div"  data-aos="fade-up">
+    I am div 4
+  </div>
+  <!-- ------------------------------------------------------------->
+  <div class="div"  data-aos="zoom-in">
+    I am div 5
+  </div>
+  <!-- ------------------------------------------------------------->
+  <div class="div" data-aos="flip-up">
+    I am div 6
+  </div>
+  <!-- ------------------------------------------------------------->
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+</body>
+</html>

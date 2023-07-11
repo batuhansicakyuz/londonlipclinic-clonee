@@ -27,7 +27,8 @@
   <br>
   <img class="logo" src="assets/images/pure.jpeg">
 </div>-->
-  <img src="assets/images/pure.jpeg" class="ri" />
+
+  <img class="ri" src="assets/images/pure.jpeg"  >
 <!--<div class="backgroundcolor">-->
 <!--  <div style="background-size: 1200px 600px;" [ngStyle]="{backgroundImage:'url(./assets/images/pure.jpeg)'}"  >-->
 
@@ -50,11 +51,13 @@
   <br>
   <br>
 
-  <div class="responsive-two-columns" data-aos="fade-down" >
-    <div>
+  <div class="responsive-two-columns" >
+    <div data-aos="flip-right"
+         data-aos-easing="linear"
+         data-aos-duration="1000">
       <h2 class="colour1">THE HOMEE OF PERFECT LIPS.</h2>
       <h3 class="colour1">Entrümpelungen in Berlin und Brandenburg</h3>
-      <div class="slide-left">
+      <div >
         <p>
           Whether you are looking to add volume to thin lips, even out asymmetrical lips, plump
         </p>
@@ -98,7 +101,9 @@
       </div>
     </div>
     <div>
-        <img src="assets/images/happy.png" width="600" height="600">
+        <img src="assets/images/happy.png" width="600" height="600" data-aos="flip-left"
+             data-aos-easing="linear"
+             data-aos-duration="1500">
     </div>
     </div>
 
@@ -106,7 +111,9 @@
   <div class="client-count-wrp mt-100 ">
     <div class="responsive-three-columns">
       <div class="item">
-        <img src="assets/icons/task.png" class="w3-round">
+        <img src="assets/icons/task.png" class="w3-round" data-aos="flip-right"
+             data-aos-easing="linear"
+             data-aos-duration="2500">
         <div class="cards">
           <br>
           <h4>{{projectcount}}</h4>
@@ -114,7 +121,9 @@
         </div>
       </div>
       <div class="item">
-        <img src="assets/icons/customer-service.png" class="w3-round">
+        <img src="assets/icons/customer-service.png" class="w3-round" data-aos="flip-down"
+             data-aos-easing="linear"
+             data-aos-duration="1500">
         <div class="cards">
           <br>
           <h4>{{customerfeedback + "%"}}</h4>
@@ -122,7 +131,9 @@
         </div>
       </div>
       <div class="item">
-        <img class= deneme1 src="assets/icons/handshake1.png" class="w3-round">
+        <img class= deneme1 src="assets/icons/handshake1.png" class="w3-round" data-aos="flip-down"
+             data-aos-easing="linear"
+             data-aos-duration="1500">
         <div class="cards">
           <br>
           <h4>{{accuratecount + "%"}}</h4>
@@ -131,7 +142,9 @@
         </div>
       </div>
       <div class="item">
-        <img class= deneme1 src="assets/icons/group.png" class="w3-round">
+        <img class= deneme1 src="assets/icons/group.png" class="w3-round" data-aos="flip-right"
+             data-aos-easing="linear"
+             data-aos-duration="1500">
         <div class="cards">
           <br>
           <h4>{{clientcount}}</h4>
@@ -142,17 +155,30 @@
   </div>
   <br>
   <br>
-  <br>
-  <br>
-  <div class="center-div" style="text-align:center" data-aos="fade-left">
-    <h2 class="colour1">BIGGER ISN’T ALWAYS BETTER.</h2>
-    <img src="assets/images/woman.png" width="600" height="400">
+
+  <div class="center-div" style="text-align:center" >
+    <h2 class="colour1"  data-aos="flip-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+      BIGGER ISN’T ALWAYS BETTER.
+    </h2>
+    <br>
+    <br>
+    <img src="assets/images/woman.png" width="600" height="400"  data-aos="flip-left"
+         data-aos-easing="linear"
+         data-aos-duration="1500">
     <br>
     <br>
     <br>
-    <h2 class="colour1"> Hello doesn’t believe you need excessive product to add incredible volume to your lips. Placement is key.</h2>
+    <h2 class="colour1" data-aos="flip-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+      Hello doesn’t believe you need excessive product to add incredible volume to your lips. Placement is key.
+    </h2>
     <br>
-    <div class="slide-left1">
+    <div data-aos="flip-left"
+         data-aos-easing="linear"
+         data-aos-duration="1500">
       <p>
         All patients are unique, and as a medical prescriber in London with excellent
       </p>
@@ -178,7 +204,9 @@
     <br>
     <br>
     <br>
-    <div class="naturalborder">
+    <div class="naturalborder"  data-aos="flip-up"
+         data-aos-easing="linear"
+         data-aos-duration="1500">
       <h2 class="colour1"> Rupesh doesn’t believe you need excessive product to add incredible volume to your lips. Placement is key.</h2>
       <p class="colour2">
         Rupesh based in world famous Harley Street London, believes that the most exceptional lips appear to have had nothing injected at all. They are simply balanced, full and natural looking lips. Through employing the non-surgical lip filler techniques that Rupesh has perfected, he knows you will be leaving the London Lip Clinic with nothing but a smile – and some compliments.
@@ -189,11 +217,17 @@
       </p>
     </div>
   </div>
+  <br>
+  <br>
+  <br>
   <div class="center-div">
+    <br>
+    <br>
+    <br>
   <ngb-carousel *ngIf="images">
     <ng-template ngbSlide>
       <div class="picsum-img-wrapper">
-        <img src="assets/images/cicekli.png" alt="Random first slide" />
+        <img src="assets/images/bitkili.png" alt="Random first slide" />
       </div>
       <div class="carousel-caption">
         <h3>First slide label</h3>
@@ -227,13 +261,17 @@
   <br>
   <br>
   <div class="responsive-two-columns">
-    <div>
+    <div data-aos="flip-right"
+         data-aos-easing="linear"
+         data-aos-duration="2500">
       <img src="assets/images/female.png" width="600" height="400">
     </div>
-    <div>
+    <div data-aos="flip-left"
+         data-aos-easing="linear"
+         data-aos-duration="1500">
       <h4 class="colour1">DADAS DIENSTLEISTUNGEN</h4>
       <h2 class="colour1">EXPERTISE COUNTS FOR EVERYTHING.</h2>
-      <div class="slide-left2">
+      <div>
         <p>
           A prescriber, Member of the Royal Pharmaceutical Society and
         </p>
@@ -269,7 +307,9 @@
 
     </div>
   <div class="naturalborder1">
-  <div class="responsive-two-columns" >
+  <div class="responsive-two-columns" data-aos="flip-right"
+       data-aos-easing="linear"
+       data-aos-duration="1500" >
         <div style="text-align:center">
 
           <br>
@@ -299,7 +339,9 @@
   <br>
   <br>
 
-  <div class="responsive-three-columns">
+  <div class="responsive-three-columns" data-aos="flip-up"
+       data-aos-easing="linear"
+       data-aos-duration="1500">
     <div class="item">
       <div class="zoom">
         <img src="assets/images/aesthetic-1.jpg" class="w3-round">
@@ -324,7 +366,9 @@
   <br>
   <br>
   <br>
-  <div class="naturalborder1" style="text-align:center">
+  <div class="naturalborder1" style="text-align:center" data-aos="flip-left"
+       data-aos-easing="linear"
+       data-aos-duration="1500">
     <h2 > Rupesh doesn’t believe you need excessive product to add incredible volume to your lips. Placement is key.</h2>
     <p>
       Rupesh based in world famous Harley Street London, believes that the most exceptional lips appear to have had nothing injected at all. They are simply balanced, full and natural looking lips. Through employing the non-surgical lip filler techniques that Rupesh has perfected, he knows you will be leaving the London Lip Clinic with nothing but a smile – and some compliments.
@@ -429,7 +473,9 @@
 <!--<div class="body10">
     <div class="row">
       <div class="alignleft7">-->
-      <div class="column">
+      <div class="column" data-aos="fade-down"
+           data-aos-easing="linear"
+           data-aos-duration="1500">
         <div class="container2">
           <img src="assets/images/hand1.jpg" alt="Avatar" class="image2" style="width:143%">
           <div class="overlay2">
@@ -437,7 +483,9 @@
           </div>
         </div>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-down"
+           data-aos-easing="linear"
+           data-aos-duration="1500">
         <div class="container2">
           <img src="assets/images/skincare1.jpg" alt="Avatar" class="image2" style="width:143%">
           <div class="overlay2">
@@ -445,7 +493,9 @@
           </div>
         </div>
       </div>
-      <div class="column">
+      <div class="column" data-aos="fade-down"
+           data-aos-easing="linear"
+           data-aos-duration="1500">
         <div class="container2">
           <img src="assets/images/skincare.jpg" alt="Mountains" class="image2" style="width:143%">
           <div class="overlay2">
@@ -453,7 +503,9 @@
           </div>
         </div>
       </div>
-  <div class="column">
+  <div class="column" data-aos="fade-up"
+       data-aos-easing="linear"
+       data-aos-duration="1500">
     <div class="container2">
       <img src="assets/images/aesthetic6.jpg" alt="Avatar" class="image2" style="width:143%">
       <div class="overlay2">
@@ -461,7 +513,9 @@
       </div>
     </div>
   </div>
-  <div class="column">
+  <div class="column" data-aos="fade-up"
+       data-aos-easing="linear"
+       data-aos-duration="1500">
     <div class="container2">
       <img src="assets/images/aesthetic4.jpg" alt="Avatar" class="image2" style="width:143%">
       <div class="overlay2">
@@ -469,7 +523,9 @@
       </div>
     </div>
   </div>
-  <div class="column">
+  <div class="column" data-aos="fade-up"
+       data-aos-easing="linear"
+       data-aos-duration="1500">
     <div class="container2">
       <img src="assets/images/aesthetic5.jpg" alt="Mountains" class="image2" style="width:143%">
       <div class="overlay2">

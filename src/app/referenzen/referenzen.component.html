@@ -1,17 +1,31 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-  <title>Animate On Scroll | AOS</title>
-<!--  <link rel="stylesheet" href="aos-by-red.css">-->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
+<style>
+#myVideo {
+position: absoulute;
+
+bottom: 0;
+min-width: 60%;
+max-width: 100%;
+min-height: 100%;
+background-size: cover;
+}
+</style>
 <br>
 <br>
-<br>
-<br>
-<br>
+
+
 <body>
+<div class="video-container">
+  <video autoplay muted loop id="myVideo" >
+    <source src="assets/videos/Good1.mp4" type="video/mp4" />
+    <h2>Your caption here</h2>
+  </video>
+  <div class="caption">
+
+  </div>
+</div>
+
 <div class="container">
+
   <!------------------------------------------------------------>
   <div class="div">
     <img src="assets/images/happy.png" width="600" height="400">
@@ -46,4 +60,3 @@
       });
     </script>
 </body>
-</html>

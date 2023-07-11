@@ -252,7 +252,7 @@ img.logo {
     margin-left:-50%;
 }
 
-img.ri
+img.ripic
 {
 	position: absolute;
 	max-width: 80%;
@@ -262,7 +262,7 @@ img.ri
 	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
 }
 
-img.ri:empty
+img.ripic:empty
 {
 	top: 60%;
 	left: 50%;
@@ -274,11 +274,11 @@ img.ri:empty
 }
 
 @media screen and (orientation: portrait) {
-  img.ri { max-width: 90%; }
+  img.ripic { max-width: 90%; }
 }
 
 @media screen and (orientation: landscape) {
-  img.ri { max-height: 90%; }
+  img.ripic { max-height: 90%; }
 }
 
 .responsive {
